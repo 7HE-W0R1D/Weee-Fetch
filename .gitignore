@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data folders
+fetched-data/
+
+# Temporary and log files
+*.txt
+*.log
+.DS_Store
