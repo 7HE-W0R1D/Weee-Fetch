@@ -35,6 +35,14 @@ pip install requests openpyxl pillow tqdm argparse
 
 项目包含以下几个主要脚本，可根据需求选择运行：
 
+#### Google Colab (云端运行)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
+
+如果您不想在本地安装 Python 环境，可以使用提供的 Jupyter Notebook 在 Google Colab 上运行：
+1. 在 GitHub 或本地找到 `Weee_Fetch_Colab.ipynb`。
+2. 上传至 [Google Colab](https://colab.research.google.com/)。
+3. 按照单元格提示运行及下载数据。
+
 | 脚本名称 | 功能描述 |
 | :--- | :--- |
 | `Test-weee-excel.py` | **[推荐]** 抓取商品评价并保存为 JSON 及包含嵌入图片的 Excel。 |
@@ -47,15 +55,6 @@ pip install requests openpyxl pillow tqdm argparse
 ```bash
 python Test-weee-excel.py
 ```
-
-#### Google Colab (云端运行)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
-
-如果您不想在本地安装 Python 环境，可以使用提供的 Jupyter Notebook 在 Google Colab 上运行：
-1. 在 GitHub 或本地找到 `Weee_Fetch_Colab.ipynb`。
-2. 上传至 [Google Colab](https://colab.research.google.com/)。
-3. 按照单元格提示运行及下载数据。
-
 
 #### 命令行 CLI 运行
 使用参数自动运行，提高效率：
