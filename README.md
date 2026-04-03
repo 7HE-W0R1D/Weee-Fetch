@@ -48,6 +48,13 @@ pip install requests openpyxl pillow tqdm argparse
 python Test-weee-excel.py
 ```
 
+#### Google Colab (云端运行)
+如果您不想在本地安装 Python 环境，可以使用提供的 Jupyter Notebook 在 Google Colab 上运行：
+1. 在 GitHub 或本地找到 `Weee_Fetch_Colab.ipynb`。
+2. 上传至 [Google Colab](https://colab.research.google.com/)。
+3. 按照单元格提示运行及下载数据。
+
+
 #### 命令行 CLI 运行
 使用参数自动运行，提高效率：
 ```bash

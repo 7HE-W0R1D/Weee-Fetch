@@ -48,6 +48,13 @@ Run the script and follow the prompts to input your URL, language choice, and ma
 python Test-weee-excel.py
 ```
 
+#### Google Colab (Cloud Execution)
+If you don't want to install Python locally, you can use the provided Jupyter Notebook on Google Colab:
+1. Find `Weee_Fetch_Colab.ipynb` in the repo or on your computer.
+2. Upload it to [Google Colab](https://colab.research.google.com/).
+3. Follow the cell prompts to run and download your data.
+
+
 #### CLI Mode
 Run seamlessly via command line arguments:
 ```bash
