@@ -35,6 +35,17 @@ pip install requests openpyxl pillow tqdm argparse
 
 The repository includes several main scripts. Choose the one that fits your needs:
 
+
+#### Google Colab (Cloud Execution)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
+
+If you don't want to install Python locally, you can use the provided Jupyter Notebook on Google Colab:
+1. Find `Weee_Fetch_Colab.ipynb` in the repo or on your computer.
+2. Upload it to [Google Colab](https://colab.research.google.com/).
+3. Follow the cell prompts to run and download your data.
+
+
 | Script Name | Description |
 | :--- | :--- |
 | `Test-weee-excel.py` | **[Highly Recommended]** Fetches reviews and exports to JSON and Excel (with embedded images). |
@@ -47,16 +58,6 @@ Run the script and follow the prompts to input your URL, language choice, and ma
 ```bash
 python Test-weee-excel.py
 ```
-
-#### Google Colab (Cloud Execution)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
-
-If you don't want to install Python locally, you can use the provided Jupyter Notebook on Google Colab:
-1. Find `Weee_Fetch_Colab.ipynb` in the repo or on your computer.
-2. Upload it to [Google Colab](https://colab.research.google.com/).
-3. Follow the cell prompts to run and download your data.
-
 
 #### CLI Mode
 Run seamlessly via command line arguments:
