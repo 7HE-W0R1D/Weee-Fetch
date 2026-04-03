@@ -49,6 +49,8 @@ python Test-weee-excel.py
 ```
 
 #### Google Colab (云端运行)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
+
 如果您不想在本地安装 Python 环境，可以使用提供的 Jupyter Notebook 在 Google Colab 上运行：
 1. 在 GitHub 或本地找到 `Weee_Fetch_Colab.ipynb`。
 2. 上传至 [Google Colab](https://colab.research.google.com/)。

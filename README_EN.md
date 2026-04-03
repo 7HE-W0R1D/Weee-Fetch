@@ -49,6 +49,9 @@ python Test-weee-excel.py
 ```
 
 #### Google Colab (Cloud Execution)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/7HE-W0R1D/Weee-Fetch/blob/main/Weee_Fetch_Colab.ipynb)
+
 If you don't want to install Python locally, you can use the provided Jupyter Notebook on Google Colab:
 1. Find `Weee_Fetch_Colab.ipynb` in the repo or on your computer.
 2. Upload it to [Google Colab](https://colab.research.google.com/).
